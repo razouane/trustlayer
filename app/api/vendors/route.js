@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic'
 import { createAdminClient } from '../../../lib/supabase/server';
 export async function GET() {
   const supabase = createAdminClient();
