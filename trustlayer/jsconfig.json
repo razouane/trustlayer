@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": { "@/*": ["./*"] },
+    "moduleResolution": "node",
+    "allowJs": true,
+    "skipLibCheck": true
+  },
+  "include": ["**/*.js", "**/*.jsx"],
+  "exclude": ["node_modules"]
+}
